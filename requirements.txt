@@ -1,0 +1,8 @@
+braq==0.0.12
+kvf==0.0.3
+paradict==0.0.16
+PySide6==6.8.1
+PySide6_Addons==6.8.1
+PySide6_Essentials==6.8.1
+shared==0.0.32
+shiboken6==6.8.1
