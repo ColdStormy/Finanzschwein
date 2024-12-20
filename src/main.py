@@ -9,7 +9,7 @@ if __name__ == "__main__":
     view = QQuickView()
     view.engine().addImportPath(sys.path[0])
     
-    view.loadFromModule("App", "Main")
+    view.loadFromModule("style", "Main")
     view.show()
     ex = app.exec()
 

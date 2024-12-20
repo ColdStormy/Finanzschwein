@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Project",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "QT_QPA_PLATFORM": "windows",
+                "PYTHONPYCACHEPREFIX": "${workspaceFolder}/.pycache"
+            }
+        },
+        {
+            "name": "Initialize SQLite Database",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/database_setup.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
