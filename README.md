@@ -24,7 +24,7 @@ Make sure to install python 3.9 or later. Then install modules with
 # Optional: active virtual environment
 python -m venv ./venv
 .\venv\Scripts\active
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Release History
